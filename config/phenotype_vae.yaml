@@ -1,0 +1,21 @@
+model_params:
+  name: 'PhenotypeVAE'
+  in_channels: 82
+  latent_dim: 32
+
+
+exp_params:
+  LR: 0.0005
+  weight_decay: 0.0
+  # scheduler_gamma: 0.95
+  kld_weight: 0.05
+  manual_seed: 1265
+
+trainer_params:
+  gpus: [1]
+  max_epochs: 100
+
+logging_params:
+  save_dir: "logs/"
+  name: "PhenotypeVAE"
+  
