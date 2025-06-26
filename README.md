@@ -1,4 +1,4 @@
-# Phenotype-Guided Generative Model for High-Fidelity Cardiac MRI Synthesis: Advancing Pretraining and Clinical Applications
+# [MICCAI2025]Phenotype-Guided Generative Model for High-Fidelity Cardiac MRI Synthesis: Advancing Pretraining and Clinical Applications
 ## Environment Set Up
 Install required packages:
 ```
